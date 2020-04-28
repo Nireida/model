@@ -1,0 +1,11 @@
+<h1>Сувенирная продукция</h1>
+<div class="fonts">
+  <app-dashboard *ngFor="let dashboard of selectedDashboards" [dashboard]="dashboard" [tags]="false"  (download)="downloadDoc($event)"></app-dashboard>
+</div>
+<div class="flex-center-pagination">
+<!--  <wb-pagination *ngIf="souvenirs.length > count"-->
+<!--                 [totalCount]="souvenirs.length"-->
+<!--                 (OnChange)="loadData($event)"-->
+<!--                 [count]="count"-->
+<!--                 [pagesCount]="5"></wb-pagination>-->
+</div>

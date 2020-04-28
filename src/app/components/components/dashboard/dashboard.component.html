@@ -1,0 +1,15 @@
+<div  class="dashboard">
+  <div class="picture-container">
+    <div *ngIf="tags" class="tags-left">
+      <span *ngFor="let tag of dashboard.tags" class="picture-tag" (click) = "changeTag(tag)">{{tag}}</span>
+    </div>
+    <img class="picture" [src]="dashboard.img"/>
+  </div>
+  <div class="title">{{dashboard.title}}</div>
+  <div class="flex">
+    <button class="download" nz-button (click)="downloadDoc(dashboard.url)">
+      <span>Загрузить</span>
+      <i class="wb-icons wb-download"></i>
+    </button>
+  </div>
+</div>

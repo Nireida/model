@@ -1,0 +1,5 @@
+<div class="tags">
+  <div *ngFor="let tag of tags" class="tag"
+       [ngClass] = "{'active': selected.indexOf(tag) > -1}"
+       (click) ="click(tag)">{{tag}}</div>
+</div>

@@ -1,0 +1,112 @@
+h1 {
+  margin: 92px 0 26px;
+  font-size: 48px;
+  font-family: Segoe UI, Arial, serif;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: normal;
+}
+.proxima{
+  margin-top: 54px;
+}
+
+.montserrat {
+  margin-top: 80px;
+}
+
+.download{
+  color: white;
+  font-weight: normal;
+  margin-top: 40px;
+  border-radius: 20px;
+  line-height: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  i{
+    margin: 4px 0 4px 8px;
+    position: unset;
+  }
+}
+
+.font-picture{
+  overflow: auto;
+  position: relative;
+  .line-top{
+    position: absolute;
+    width: 100%;
+    background-color: #f2b3d8;
+    height: 2px;
+    border: none;
+    top: 27px;
+  }
+  .line-bottom{
+    position: absolute;
+    width: 100%;
+    background-color: #f2b3d8;
+    height: 2px;
+    border: none;
+    bottom: 22px;
+    z-index: 0;
+  }
+  img{
+    max-width: none;
+  }
+  @keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-200%, 0, 0); }
+  }
+  .tcontainer{
+    width: 100%;
+    overflow: hidden;
+  }
+  .ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+  }
+  .ticker-move {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 80s;
+    animation-delay: 12s;
+  }
+  .ticker-item{
+    display: inline-block;
+    padding: 0 2rem;
+  }
+  .second{
+    position: absolute;
+    top: 0;
+    .ticker-move{
+      animation-delay: 52s;
+    }
+  }
+  .first{
+    position: absolute;
+    top: 0;
+    .ticker-wrap-1 {
+      width: 100%;
+    }
+    .ticker-move{
+      animation-duration: 136s;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+    }
+    .top{
+      animation-duration: 148s;
+      .ticker-item{
+        margin-left: 100px;
+      }
+    }
+  }
+}

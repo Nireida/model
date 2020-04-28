@@ -1,0 +1,50 @@
+section {
+  padding: 40px;
+  width: 1440px;
+  position: relative;
+  color: black;
+  margin: auto;
+
+  .download-instruction{
+    position: absolute;
+    top: 376px;
+    right: 494px;
+    border-radius: 40px;
+    font-size: 24px;
+    width: 350px;
+    height: 72px;
+    color: white;
+    background: bottom;
+    border: 1px solid;
+    padding: 24px;
+    line-height: 0;
+    font-weight: inherit;
+  }
+  .main-logo{
+    position: relative;
+    .title{
+      position: absolute;
+      color: white;
+      font-size: 34px;
+      line-height: 140%;
+      text-align: center;
+      font-weight: normal;
+      top: 50px;
+      left: 30%;
+    }
+  }
+}
+::ng-deep {
+  .ant-modal-wrap.vertical-center-brand-book-modal {
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ant-modal{
+    top: 0;
+  }
+  * {
+      font-family: Segoe UI, Arial, serif;
+  }
+}

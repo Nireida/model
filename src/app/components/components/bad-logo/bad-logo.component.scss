@@ -1,0 +1,29 @@
+.bad{
+  font-family: Segoe UI, Arial, serif;
+  color: black;
+  p{
+    font-weight: normal;
+  }
+  .bad-logo{
+    display: grid;
+    grid-template-columns: 206px 206px 206px 1fr;
+    :not(:last-child) {
+      margin-right: 20px
+    }
+    .text{
+      color: #8B8B8B;
+    }
+    p{
+      margin: 12px 0 0 0;
+    }
+  }
+  .regulations{
+    margin: 40px 0;
+  }
+  .ok-button{
+    margin-top: 24px;
+    color: white;
+    border: 1px solid;
+  }
+
+}

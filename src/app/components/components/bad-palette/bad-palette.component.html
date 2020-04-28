@@ -1,0 +1,15 @@
+<div class="bad">
+  <h1>Так делать нельзя</h1>
+  <p>Недопустимое использование фирменного градиента</p>
+  <div class="bad-palette">
+    <div *ngFor="let palette of palettes" class="palette">
+      <div class="relative">
+        <img style="width: 100%" [src]="palette.img"/>
+      </div>
+      <p class="row-flex-start"><i class="wb-icons wb-circle-plus"></i><span>Недопустимо!</span></p>
+      <div class="text">{{palette.text}}</div>
+    </div>
+  </div>
+  <button nz-button class="ok-button" (click)="close()">Понятно</button>
+</div>
+

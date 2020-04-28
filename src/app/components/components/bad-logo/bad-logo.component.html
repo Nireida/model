@@ -1,0 +1,17 @@
+<div class="bad">
+  <h1>Так делать нельзя</h1>
+  <p>Не используйте старые версии логотипа.</p>
+  <img style="width: 100%; margin-top: 16px" src="https://photos.wbstatic.net/brand-book/Group285.png"/>
+  <div class="regulations">
+    Не изменяйте шрифт, цвет, форму или пропорции элементов фирменного знака.<br/>
+    Не применяйте к нему визуальные эффекты: например, тени, свечение или градиенты.
+  </div>
+  <div class="bad-logo">
+    <div *ngFor="let logo of logos">
+      <img style="width: 100%" [src]="logo.img"/>
+      <p>Запрещено!</p>
+      <div class="text">{{logo.text}}</div>
+    </div>
+  </div>
+  <button nz-button class="ok-button" (click)="close()">Понятно</button>
+</div>

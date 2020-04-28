@@ -1,0 +1,27 @@
+<h1>Деловая документация</h1>
+<div class="image">
+  <div class="visitka">
+    <i class="wb-icons wb-plus-in-circle " (click)="open('visitka-message')"></i>
+  </div>
+  <i class="wb-icons wb-plus-in-circle konvert" (click)="open('konvert-message')"></i>
+  <i class="wb-icons wb-plus-in-circle blank" (click)="open('blank-message')"></i>
+  <img src="https://photos.wbstatic.net/brand-book/Group311.png"/>
+  <div id="tooltip" class="message" [ngClass]="position">
+    <h4>Скачать шаблон</h4>
+    <button nz-button nzType="primary" class="download active" style="margin: auto" (click)="downloadActive()">
+      <span>Загрузить</span>
+      <i class="wb-icons wb-download"></i>
+    </button>
+  </div>
+
+</div>
+<div class="wb-row-flex download-row">
+  <span *ngFor="let document of documentation" class="center">
+    <span class="title">{{document.title}}</span>
+      <button nz-button class="download" [ngClass]="{'active': position === document.name}"
+              (click)="downloadChosen(document.url)">
+        <span>Загрузить</span>
+        <i class="wb-icons wb-download"></i>
+      </button>
+  </span>
+</div>

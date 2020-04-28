@@ -1,0 +1,134 @@
+h1{
+  margin: 92px 0 26px;
+  font-size: 48px;
+  font-family: Segoe UI, Arial, serif;
+}
+
+.wb-row-flex, .message{
+  .download{
+    color: white;
+    font-weight: normal;
+    border-radius: 20px;
+    line-height: 20px;
+    margin-top: 16px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    i{
+      margin: 4px 0 4px 8px;
+      position: unset;
+    }
+    //&:hover{
+    //   background-color: $wb-pink;
+    //   border: 1px solid $wb-pink;
+    //   color: white;
+    //   opacity: 1;
+    //   i{
+    //     color: white;
+    //     background-color: white;
+    //   }
+    // }
+  }
+  .active{
+    border: 1px solid;
+    color: white;
+    opacity: 1;
+    i{
+      color: white;
+      background-color: white;
+    }
+  }
+}
+
+.montserrat{
+  margin-top: 44px;
+}
+.center{
+  text-align: center;
+  .title{
+    font-weight: bold;
+  }
+}
+.image{
+  position: relative;
+}
+
+.visitka{
+  width: 20px;
+  position: absolute;
+  top: 88px;
+  left: 444px;
+  i{
+    cursor: pointer;
+  }
+}
+
+.konvert{
+  position: absolute;
+  top: 560px;
+  left: 840px;
+  cursor: pointer;
+}
+
+.blank{
+  position: absolute;
+  top: 96px;
+  left: 1120px;
+  cursor: pointer;
+}
+.visitka-message{
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: -30px;
+  left: 362px;
+}
+
+.konvert-message{
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: 444px;
+  left: 758px;
+}
+
+.blank-message{
+  color: black;
+  background-color: white;
+  position: absolute;
+  top: -26px;
+  right: 102px;
+}
+.none{
+  display: none;
+}
+.message{
+  width: 180px;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0 0 10px rgb(204, 204, 204);
+  border-radius: 4px;
+  h4{
+    margin: 0 4px 10px;
+  }
+  &:before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: block;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(45deg);
+    position: relative;
+    bottom: -93px;
+    left: calc(50% - 8px);
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+}
+.download-row{
+  padding: 0 100px 0 180px;
+  .title{
+    font-size: 20px
+  }
+}

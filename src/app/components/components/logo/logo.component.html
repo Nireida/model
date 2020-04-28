@@ -1,0 +1,21 @@
+<h1>Логотип</h1>
+<div class="logo-description">
+  <div>
+    Используйте логотип только в фирменных цветах Wildberries. <br/>
+    Основаня версия логотипа - шрифтовая надпись Wildberries на фирменном градиенте. <br/>
+    Допускается использование монохромной и чёрно-белой версий.
+  </div>
+  <a class="not-use" (click)="openModal()"><i class="wb-icons wb-reject"></i><span>Как нельзя использовать </span></a>
+</div>
+<div class="logos">
+  <div *ngFor="let logo of logos" class="logo">
+    <img [src]="logo.img" />
+    <div class="description">{{logo.description}}</div>
+    <div class="center">
+      <button nz-button class="download" (click) = "downloadLogo(logo.url)">
+        <span>Загрузить</span>
+        <i class="wb-icons wb-download"></i>
+      </button>
+    </div>
+  </div>
+</div>

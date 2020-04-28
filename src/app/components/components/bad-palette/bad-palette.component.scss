@@ -1,0 +1,52 @@
+.bad{
+  font-family: Segoe UI, Arial, serif;
+  color: black;
+  p{
+    font-weight: normal;
+  }
+  .bad-palette{
+    display: grid;
+    grid-template-columns: 160px 1fr 1fr 1fr;
+    :not(:last-child) {
+      margin-right: 20px
+    }
+    .text{
+      color: #8B8B8B;
+      margin-left: 18px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .palette{
+      display: grid;
+      grid-template-rows: 250px 40px 1fr;
+    }
+    .relative{
+      position: relative;
+      img{
+        width: 100%;
+        bottom: 8px;
+        position: absolute;
+      }
+    }
+    .wb-icons{
+      background-color: red;
+      margin: 0;
+    }
+    .row-flex-start{
+      display: flex;
+      justify-content: flex-start;
+      margin: 20px 0  0 0;
+      span{
+        margin-left: 2px;
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+  .ok-button{
+    margin-top: 24px;
+    color: white;
+    border: 1px solid;
+  }
+
+}

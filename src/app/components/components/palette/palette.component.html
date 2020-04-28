@@ -1,0 +1,41 @@
+<h1>Фирменная палитра</h1>
+<div class="firm-palette">
+  <img src="https://photos.wbstatic.net/brandbook/firm-palette(1).png" class="gradient">
+  <div class="firm-palette-block magneta">
+  <p>Magneta</p>
+    <div class="text-block">
+      <span>HTML</span> <span>{{palette['magneta'].html}}</span>
+      <span>RGB</span> <span>{{palette['magneta'].rgb}}</span>
+      <span>CMYK</span> <span>{{palette['magneta'].cmyk}}</span>
+      <span>PANTONE</span> <span>{{palette['magneta'].pantone}}</span>
+    </div>
+  </div>
+  <div class="firm-palette-block purplish">
+    <p>Purplish</p>
+    <div class="text-block">
+      <span>HTML</span> <span>{{palette['purplish'].html}}</span>
+      <span>RGB</span> <span>{{palette['purplish'].rgb}}</span>
+      <span>CMYK</span> <span>{{palette['purplish'].cmyk}}</span>
+      <span>PANTONE</span> <span>{{palette['purplish'].pantone}}</span>
+    </div>
+  </div>
+  <div class="firm-palette-block dark-violet">
+    <p>Dark Violet</p>
+    <div class="text-block">
+      <span>HTML</span> <span>{{palette['darkViolet'].html}}</span>
+      <span>RGB</span> <span>{{palette['darkViolet'].rgb}}</span>
+      <span>CMYK</span> <span>{{palette['darkViolet'].cmyk}}</span>
+      <span>PANTONE</span> <span>{{palette['darkViolet'].pantone}}</span>
+    </div>
+  </div>
+</div>
+<h3 class="palette-title">Используйте фирменный градиент Wildberries правильно</h3>
+<div class="palette-description">
+  <div>
+    Основной фон - градиент от ярко-розового (Magneta) до насыщенного фиолетового <br/>
+    (Dark Violet) цвета. При использовании градиента допускается поворот только в 45&#176; и 90&#176;<br/>
+    Логотип распологается строго горизонтально или вертикально.
+  </div>
+  <div class="not-use" (click)="openModal()"> <i class="wb-icons wb-reject"></i><span>Как нельзя использовать</span></div>
+</div>
+<img src="https://photos.wbstatic.net/brand-book/palette.png" class="palette"/>
