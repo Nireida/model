@@ -1,8 +1,8 @@
 @import "../../../../styles";
 
 .dashboard{
-  width: 312px;
-  height: 344px;
+  width: 98%;
+  height: 260px;
   margin: auto auto 20px;
   BORDER: 1px solid #D8D8D8;
   align-items: center;
@@ -17,8 +17,8 @@
       .picture-tag{
         margin: 4px;
         background-color: white;
-        padding: 6px 16px;
-        font-size: smaller;
+        padding: 4px 8px;
+        font-size: 8px;
         opacity: 0.9;
         cursor: pointer;
         &:first-child{
@@ -27,7 +27,7 @@
       }
     }
     .picture{
-      height: 208px;
+      height: 150px;
       width: 100%;
       border-bottom: 1px solid #dedede;
     }
@@ -36,7 +36,7 @@
 .title{
   text-align: center;
   margin: 20px 0;
-  font-size: 20px;
+  font-size: 14px;
 }
 .flex{
   display: flex;

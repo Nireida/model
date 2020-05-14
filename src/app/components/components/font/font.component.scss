@@ -1,7 +1,14 @@
+@import "../../../../styles";
 h1 {
   margin: 92px 0 26px;
   font-size: 48px;
   font-family: Segoe UI, Arial, serif;
+}
+
+h2{
+  font-size:  120px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -20,38 +27,24 @@ p {
   margin-top: 80px;
 }
 
-.download{
-  color: white;
-  font-weight: normal;
-  margin-top: 40px;
-  line-height: 20px;
-  border: none;
-  display: flex;
-  justify-content: center;
-  i{
-    margin: 4px 0 4px 8px;
-    position: unset;
-  }
-}
-
 .font-picture{
   overflow: auto;
   position: relative;
   .line-top{
     position: absolute;
     width: 100%;
-    background-color: #1890FF;
+    background-color: $primary;
     height: 2px;
     border: none;
-    top: 27px;
+    top: 76px;
   }
   .line-bottom{
     position: absolute;
     width: 100%;
-    background-color: #1890FF;
+    background-color: $primary;
     height: 2px;
     border: none;
-    bottom: 22px;
+    bottom: 38px;
     z-index: 0;
   }
   img{
@@ -81,7 +74,7 @@ p {
   }
   .ticker-item{
     display: inline-block;
-    padding: 0 2rem;
+    padding: 0 6rem;
   }
   .second{
     position: absolute;
