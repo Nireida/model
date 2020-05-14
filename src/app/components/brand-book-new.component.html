@@ -1,4 +1,4 @@
-<section class="brand-book">
+<div class="container-fluid">
   <div class="main-logo">
 <!--    <div class="title">Руководство по использованию <br/>фирменного стиля</div>-->
     <img class="main" src="../../assets/main.png"/>
@@ -6,11 +6,11 @@
   </div>
   <app-tags [tags]="tags" [(selected)]=selectedTags (selectedChange)="changeParams($event)"></app-tags>
   <app-dashboards [dashboards]="selectedDashboards" (selectedChange)="changeParams($event)" (download)="download($event)"></app-dashboards>
-  <app-logo [modal]="modal" (modalChange)="openModal('logo')" (download)="download($event)"></app-logo>
-  <app-palette (modalChange)="openModal('palette')"></app-palette>
-  <app-font (download)="download($event)"></app-font>
-  <app-documentation (download)="download($event)"></app-documentation>
-  <app-signature (download)="download($event)"></app-signature>
-  <app-souvenirs [souvenirs]="souvenirs" (download)="download($event)"></app-souvenirs>
-  <app-contacts></app-contacts>
-</section>
+<!--  <app-logo [modal]="modal" (modalChange)="openModal('logo')" (download)="download($event)"></app-logo>-->
+<!--  <app-palette (modalChange)="openModal('palette')"></app-palette>-->
+<!--  <app-font (download)="download($event)"></app-font>-->
+<!--  <app-documentation (download)="download($event)"></app-documentation>-->
+<!--  <app-signature (download)="download($event)"></app-signature>-->
+<!--  <app-souvenirs [souvenirs]="souvenirs" (download)="download($event)"></app-souvenirs>-->
+<!--  <app-contacts></app-contacts>-->
+</div>

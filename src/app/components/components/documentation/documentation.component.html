@@ -10,7 +10,6 @@
     <h4>Скачать шаблон</h4>
     <button nz-button nzType="primary" class="download active" style="margin: auto" (click)="downloadActive()">
       <span>Загрузить</span>
-      <i class="wb-icons wb-download"></i>
     </button>
   </div>
 
@@ -21,7 +20,6 @@
       <button nz-button class="download" [ngClass]="{'active': position === document.name}"
               (click)="downloadChosen(document.url)">
         <span>Загрузить</span>
-        <i class="wb-icons wb-download"></i>
       </button>
   </span>
 </div>

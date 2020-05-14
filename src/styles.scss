@@ -1,15 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 $primary: #071739;
 $layout: #709fdc;
 $secondary: #b9d5fd;
 $thirdary: #ebf3ff;
 
 body{
-  background-color: $layout;
-}
-
-section{
-  background-color: $secondary;
-  width: 800px;
+  background-color: $layout!important;
 }
 
 .row-flex{

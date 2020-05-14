@@ -1,5 +1,11 @@
 @import "../../styles";
 
+.container-fluid {
+  background-color: $secondary;
+  max-width: 900px;
+  padding: 0 50px 10px 50px;
+}
+
 section {
   padding: 40px;
   position: relative;
