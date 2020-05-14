@@ -1,169 +1,109 @@
 export const DASHBOARDS = [{
-  img: 'https://photos.wbstatic.net/brand_book/1.png',
-  title: 'Логотип #WBactive',
+  img: 'assets/tags/green/1.jpg',
+  title: 'Пейзаж',
   url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
-  tags: ['Спорт', 'Логотип']
+  tags: ['Синий', 'Зелёный']
+},  {
+  img: 'assets/tags/red/3.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный', 'Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/2.png',
-  title: 'Логотип WILDBERRIES',
-  url: 'https://mstatic.wbstatic.net/brand-book/Wildberries.rar',
-  tags: ['Логотип']
+  img: 'assets/tags/green/7.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий', 'Зелёный']
+},  {
+  img: 'assets/tags/green/8.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный', 'Зелёный']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/3.png',
-  title: 'Логотип футбольного клуба',
-  url: 'https://mstatic.wbstatic.net/brand-book/football.rar',
-  tags: ['Спорт', 'Логотип']
+  img: 'assets/tags/blue/3.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/4.png',
-  title: 'Логотип WB Russia Cup',
-  url: 'https://mstatic.wbstatic.net/brand-book/Russiacup.rar',
-  tags: ['Спорт', 'Логотип']
+  img: 'assets/tags/blue/6.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/5.png',
-  title: 'Шрифт Proxima Nova',
-  url: 'https://mstatic.wbstatic.net/brand-book/proximaNova.zip',
-  tags: ['Шрифт']
+  img: 'assets/tags/blue/7.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/6.png',
-  title: 'Шрифт Montserrat',
-  url: 'https://mstatic.wbstatic.net/brand-book/monserrat.zip',
-  tags: ['Шрифт']
+  img: 'assets/tags/blue/8.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/7.png',
-  title: 'Подпись сотрудника',
-  url: 'https://mstatic.wbstatic.net/brand-book/signature.rar',
-  tags: ['Подпись']
+  img: 'assets/tags/blue/9.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/19.png',
-  title: 'Презентация',
-  url: 'https://mstatic.wbstatic.net/brand-book/presentation.rar',
-  tags: ['Презентация']
+  img: 'assets/tags/blue/10.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brandbook/sport_voley.png',
-  title: 'Форма для волейбола',
-  url: 'https://mstatic.wbstatic.net/brand-book/voleyball.rar',
-  tags: ['Спорт', 'Одежда']
+  img: 'assets/tags/blue/11.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brandbook/suven_sport_bolel.png',
-  title: 'Атрибутика болельщика',
-  url: 'https://mstatic.wbstatic.net/brand-booПk/atributica.zip',
-  tags: ['Сувениры', 'Спорт'],
+  img: 'assets/tags/blue/12.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Синий']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/12.png',
-  title: 'Форма для велоспорта',
-  url: 'https://mstatic.wbstatic.net/brand-book/bicycle.rar',
-  tags: ['Спорт', 'Одежда']
+  img: 'assets/tags/red/1.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/8.png',
-  title: 'Визитки',
-  url: 'https://mstatic.wbstatic.net/brand-book/cards.rar',
-  tags: ['Визитки']
+  img: 'assets/tags/red/2.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/11.png',
-  title: 'Бланки',
-  url: 'https://mstatic.wbstatic.net/brand-book/blanks.rar',
-  tags: ['Бланк']
+  img: 'assets/tags/red/4.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/13.png',
-  title: 'Палитра',
-  url: 'https://mstatic.wbstatic.net/brand-book/paletts.rar',
-  tags: ['Цвет']
+  img: 'assets/tags/red/5.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Красный']
+},  {
+  img: 'assets/tags/green/2.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Зелёный']
+},  {
+  img: 'assets/tags/green/3.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Зелёный']
 }, {
-  img: 'https://photos.wbstatic.net/brand_book/14.png',
-  title: 'Градиент WILDBERRIES',
-  url: 'https://mstatic.wbstatic.net/brand-book/gradients.rar',
-  tags: ['Цвет']
-}, {
-  img: 'https://photos.wbstatic.net/brand_book/9.png',
-  title: 'Футбольная форма',
-  url: 'https://mstatic.wbstatic.net/brand-book/footballform.rar',
-  tags: ['Спорт', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/sport_beg_.png',
-  title: 'Футболки для бега',
-  url: 'https://mstatic.wbstatic.net/brand_book/10.png',
-  tags: ['Спорт', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/suvenir_blokno.png',
-  title: 'Блокнот',
-  url: 'https://mstatic.wbstatic.net/brand-book/bloknot.zip',
-  tags: ['Сувениры']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/suvenir_ruchka.png',
-  title: 'Ручка',
-  url: 'https://mstatic.wbstatic.net/brand-book/ruchka.zip',
-  tags: ['Сувениры']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/od_hudi.png',
-  title: 'Худи',
-  url: 'https://mstatic.wbstatic.net/brand-book/hudi.zip',
-  tags: ['Сувениры', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/suvenir_chashka.png',
-  title: 'Кружка',
-  url: 'https://mstatic.wbstatic.net/brand-book/krushka.zip',
-  tags: ['Сувениры']
-}, {
-  img: 'https://photos.wbstatic.net/brand_book/15.png',
-  title: 'Футболка-поло',
-  url: 'https://mstatic.wbstatic.net/brand-book/polo.zip',
-  tags: ['Сувениры', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/kepka_suvenir.png',
-  title: 'Кепка',
-  url: 'https://mstatic.wbstatic.net/brand-book/kepka.zip',
-  tags: ['Сувениры', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brand_book/16.png',
-  title: 'Бейджи на магните',
-  url: 'https://mstatic.wbstatic.net/brand-book/bages.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brand_book/18.png',
-  title: 'Панель-кронштейн',
-  url: 'https://mstatic.wbstatic.net/brand-book/cronshtain.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/pvz_viveski_2.png',
-  title: 'Фасадные вывески',
-  url: 'https://mstatic.wbstatic.net/brand-book/fasad.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/pvz_paket.png',
-  title: 'Пакеты',
-  url: 'https://mstatic.wbstatic.net/brand-book/bags.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/pvz.png',
-  title: 'Навигация',
-  url: 'https://mstatic.wbstatic.net/brand-book/navigation.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brand_book/17.png',
-  title: 'Уголок потребителя',
-  url: 'https://mstatic.wbstatic.net/brand-book/corner.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/pvz_viveski3.png',
-  title: 'Световой режимник',
-  url: 'https://mstatic.wbstatic.net/brand-book/sun.rar',
-  tags: ['ПВЗ']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/sklad_skotch.png',
-  title: 'Упаковочный скотч',
-  url: 'https://mstatic.wbstatic.net/brand-book/tape.rar',
-  tags: ['Склад']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/sklad_odejda.png',
-  title: 'Одежда для сотрудников склада',
-  url: 'https://mstatic.wbstatic.net/brand-book/warehouse.rar',
-  tags: ['Склад', 'Одежда']
-}, {
-  img: 'https://photos.wbstatic.net/brandbook/sklad_fura.png',
-  title: 'Фура',
-  url: 'https://mstatic.wbstatic.net/brand-book/fura.rar',
-  tags: ['Склад']
-}];
+  img: 'assets/tags/green/4.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Зелёный']
+},  {
+  img: 'assets/tags/green/5.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Зелёный']
+},  {
+  img: 'assets/tags/green/6.jpg',
+  title: 'Пейзаж',
+  url: 'https://mstatic.wbstatic.net/brand-book/WBactive.rar',
+  tags: ['Зелёный']
+},];
 
 export const FONT_URLS = {
   proximaNova: 'https://mstatic.wbstatic.net/brand-book/proximaNova.zip',

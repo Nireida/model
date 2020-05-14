@@ -14,7 +14,7 @@ export class DashboardsComponent implements OnInit, OnChanges {
   @Output() download = new EventEmitter<string>();
   selectedDashboards;
   count = 8;
-  constructor() { }
+  page = 1;
 
   ngOnInit() {
     this.selectedDashboards = this.dashboards.slice(0, this.count);

@@ -1,3 +1,5 @@
+@import "../../styles";
+
 section {
   padding: 40px;
   width: 1440px;
@@ -9,12 +11,12 @@ section {
     position: absolute;
     top: 376px;
     right: 494px;
-    border-radius: 40px;
     font-size: 24px;
     width: 350px;
     height: 72px;
-    color: white;
+    color: $primary;
     background: bottom;
+    background-color: white;
     border: 1px solid;
     padding: 24px;
     line-height: 0;
@@ -47,4 +49,10 @@ section {
   * {
       font-family: Segoe UI, Arial, serif;
   }
+}
+
+.main{
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
 }

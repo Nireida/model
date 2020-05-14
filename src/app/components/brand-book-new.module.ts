@@ -17,13 +17,15 @@ import { TagsComponent }            from './components/tags/tags.component';
 import { ContactsComponent }        from './components/contacts/contacts.component';
 import { FontDisplayNoneDirective } from './components/font/font-display-none.directive';
 import { NzButtonModule }           from 'ng-zorro-antd/button';
+import { NzPaginationModule }       from 'ng-zorro-antd/pagination';
 
 @NgModule({
   imports: [
     CommonModule,
     BrandBookNewRoutingModule,
     NzModalModule,
-    NzButtonModule
+    NzButtonModule,
+    NzPaginationModule
   ],
   declarations: [
     BrandBookNewComponent,

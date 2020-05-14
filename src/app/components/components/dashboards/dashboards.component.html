@@ -3,11 +3,8 @@
     <app-dashboard *ngFor="let dashboard of selectedDashboards" (selectedChange) = "selectedChange.emit($event)" [dashboard]="dashboard" (download)="downloadDoc($event)"></app-dashboard>
   </div>
   <div class="flex-center-pagination">
-<!--    <wb-pagination *ngIf="dashboards.length > count"-->
-<!--                   [totalCount]="dashboards.length"-->
-<!--                   (OnChange)="loadData($event)"-->
-<!--                   [count]="count"-->
-<!--                   [pagesCount]="5"></wb-pagination>-->
+    <nz-pagination *ngIf="dashboards.length > count" (nzPageIndexChange)="loadData($event)"
+                   [(nzPageIndex)]="page" [nzTotal]="dashboards.length" [nzSize]="'small'"></nz-pagination>
   </div>
 
 </div>

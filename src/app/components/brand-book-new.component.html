@@ -1,8 +1,8 @@
 <section class="brand-book">
   <div class="main-logo">
-    <div class="title">Руководство по использованию <br/>фирменного стиля</div>
-    <img src="https://photos.wbstatic.net/brandbook/MAIN.png"/>
-    <button nz-button class="download-instruction" (click)="downloadInstruction()">Загрузить руководство</button>
+<!--    <div class="title">Руководство по использованию <br/>фирменного стиля</div>-->
+    <img class="main" src="../../assets/main.png"/>
+<!--    <button nz-button class="download-instruction" (click)="downloadInstruction()">Загрузить руководство</button>-->
   </div>
   <app-tags [tags]="tags" [(selected)]=selectedTags (selectedChange)="changeParams($event)"></app-tags>
   <app-dashboards [dashboards]="selectedDashboards" (selectedChange)="changeParams($event)" (download)="download($event)"></app-dashboards>

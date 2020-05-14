@@ -15,7 +15,7 @@
   </div>
 
 </div>
-<div class="wb-row-flex download-row">
+<div class="row-flex download-row">
   <span *ngFor="let document of documentation" class="center">
     <span class="title">{{document.title}}</span>
       <button nz-button class="download" [ngClass]="{'active': position === document.name}"

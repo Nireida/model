@@ -4,11 +4,10 @@ h1{
   font-family: Segoe UI, Arial, serif;
 }
 
-.wb-row-flex, .message{
+.row-flex, .message{
   .download{
     color: white;
     font-weight: normal;
-    border-radius: 20px;
     line-height: 20px;
     margin-top: 16px;
     border: none;
@@ -107,7 +106,6 @@ h1{
   height: 100px;
   text-align: center;
   box-shadow: 0 0 10px rgb(204, 204, 204);
-  border-radius: 4px;
   h4{
     margin: 0 4px 10px;
   }

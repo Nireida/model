@@ -11,6 +11,7 @@ export class TagsComponent implements OnInit {
   @Output() selectedChange = new EventEmitter<string>();
   @Input() selected = '';
 
+
   constructor() { }
 
   ngOnInit() {
