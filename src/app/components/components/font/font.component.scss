@@ -1,12 +1,12 @@
 @import "../../../../styles";
 h1 {
-  margin: 92px 0 26px;
+  margin: 92px 0 0;
   font-size: 48px;
   font-family: Segoe UI, Arial, serif;
 }
 
 h2{
-  font-size:  120px;
+  font-size:  100px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -36,7 +36,7 @@ p {
     background-color: $primary;
     height: 2px;
     border: none;
-    top: 76px;
+    top: 50px;
   }
   .line-bottom{
     position: absolute;
@@ -44,7 +44,7 @@ p {
     background-color: $primary;
     height: 2px;
     border: none;
-    bottom: 38px;
+    bottom: 17px;
     z-index: 0;
   }
   img{
