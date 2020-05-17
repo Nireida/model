@@ -18,6 +18,9 @@ import { ContactsComponent }        from './components/contacts/contacts.compone
 import { FontDisplayNoneDirective } from './components/font/font-display-none.directive';
 import { NzButtonModule }           from 'ng-zorro-antd/button';
 import { NzPaginationModule }       from 'ng-zorro-antd/pagination';
+import { OpenCloseComponent }       from './components/open-close/open-close.component';
+import { NzLayoutModule }           from 'ng-zorro-antd/layout';
+import { AnimationModule }          from './components/open-close/vacancy-animation/animation.module';
 
 @NgModule({
   imports: [
@@ -25,7 +28,9 @@ import { NzPaginationModule }       from 'ng-zorro-antd/pagination';
     BrandBookNewRoutingModule,
     NzModalModule,
     NzButtonModule,
-    NzPaginationModule
+    NzPaginationModule,
+    NzLayoutModule,
+    AnimationModule
   ],
   declarations: [
     BrandBookNewComponent,
@@ -41,7 +46,8 @@ import { NzPaginationModule }       from 'ng-zorro-antd/pagination';
     BadPaletteComponent,
     TagsComponent,
     ContactsComponent,
-    FontDisplayNoneDirective
+    FontDisplayNoneDirective,
+    OpenCloseComponent
   ],
   entryComponents: [BadLogoComponent, BadPaletteComponent]
 })
