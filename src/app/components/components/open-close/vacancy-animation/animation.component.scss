@@ -3,14 +3,32 @@
   flex-wrap: wrap;
   border: none;
   position: relative;
+  padding: 0;
   li{
     background-color: white;
     margin: 10px;
-    border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     font-size: 12px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
   }
+}
+.li-absolute-animation {
+  position: absolute;
+  pointer-events: none;
+}
+
+section {
+  display: block !important;
+  margin: 0;
+
+  &.back-section {
+    border-radius: 8px 8px 0 0;
+    margin-top: 0;
+  }
+
 }

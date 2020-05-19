@@ -54,93 +54,17 @@ body{
   background-color: $thirdary;
 }
 
-nz-sider.nz-sider-vacancy-details {
-  background: transparent;
-  overflow: hidden;
+html{
+  overflow-x: hidden;
+}
 
-  .ant-layout-sider-children {
-    overflow: hidden;
-  }
+h1 {
+  margin: 92px 0 0!important;
+  font-size: 48px!important;
+  font-family: Segoe UI, Arial, serif;
+}
 
-  &.with-scroll {
-    .ant-layout-sider-children {
-      overflow-y: auto;
-
-      &::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
-      }
-
-      &::-webkit-scrollbar-track {
-        background: transparent;
-      }
-
-      &::-webkit-scrollbar {
-        width: 4px;
-      }
-    }
-  }
-
-  nz-header.ant-layout-header {
-    margin-left: 8px;
-  }
-
-  ul.ant-menu.ant-menu-root.ant-menu-light.ant-menu-vertical {
-    background-color: transparent;
-    line-height: 30px;
-  }
-
-  &.ant-layout-sider {
-    box-shadow: none;
-    border-radius: 8px;
-  }
-
-  &:not(.ant-layout-sider-collapsed) {
-    .ant-layout-header ul .ant-menu-item {
-      width: 110px;
-      height: 110px;
-      margin: 8px 16px 8px 0;
-    }
-  }
-
-  .wb-btn {
-    padding: 8px;
-  }
-
-  .wb-table-list-container .table-actions.ng-star-inserted {
-    justify-content: space-around;
-  }
-
-  section {
-    display: block !important;
-    margin: 0;
-
-    &.back-section {
-      border-radius: 8px 8px 0 0;
-      margin-top: 0;
-    }
-
-    .sider-header {
-      background-color: transparent;
-      padding: 0;
-    }
-
-  }
-
-  h4.ant-list-item-meta-title.ng-star-inserted {
-    word-break: break-all;
-  }
-
-  .vacancy-bottom-section {
-    margin-top: 0 !important;
-    border-radius: 0 0 8px 8px;
-    height: 360px;
-    padding: 0;
-    background-color: transparent;
-  }
-
-  .li-absolute-animation {
-    position: absolute;
-    pointer-events: none;
-  }
+p {
+  font-size: 22px;
+  font-weight: normal;
 }

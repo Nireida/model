@@ -1,11 +1,13 @@
-<nz-sider [nzWidth]="400" class="nz-sider-vacancy-details" [ngClass]="{ 'with-scroll': sideBar }">
-  <section [style.background-color]="sideBar ? 'white' : 'transparent'" class="vacancy-bottom-section">
-    <nz-header class="sider-header">
+<h1>Меню</h1>
+<div style="display: flex; justify-content: space-between">
+  <p>Кастомное меню с анимацией</p>
+  <div style="width: 330px" [ngClass]="{ 'with-scroll': sideBar }">
+    <section [style.background-color]="sideBar ? 'white' : 'transparent'"
+             class="vacancy-bottom-section">
       <app-animation [siderData]="siderData" (sideBarChange)="getSideBarValue($event)"></app-animation>
-    </nz-header>
-    <ng-container *ngIf="sideBar">
-      <div *ngIf="sideBar === 'history'"> 123123 </div>
-      <div *ngIf="sideBar === 'comments'">7777</div>
-    </ng-container>
-  </section>
-</nz-sider>
+      <ng-container *ngIf="sideBar">
+        <div>{{siderData[+sideBar].title}}</div>
+      </ng-container>
+    </section>
+  </div>
+</div>

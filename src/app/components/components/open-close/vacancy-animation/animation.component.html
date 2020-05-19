@@ -1,14 +1,14 @@
 <section *ngIf="sideBar" class="back-section">
   <button nz-button (click)="changeSideBar(undefined)">Назад</button>
 </section>
-<ul nz-menu class="cards" [@changeDivSize]=allState>
+<ul class="cards" [@changeDivSize]=allState>
 
   <ng-container *ngFor="let data of siderData; index as i">
-    <li *ngIf="!sideBar" nz-menu-item (click)="changeSideBar(data.name, i, $event)">
+    <li *ngIf="!sideBar" (click)="changeSideBar(data.name, i, $event)">
       <i nz-icon [type]="data.icon" style="pointer-events: none"></i>
       <span class="nav-text" style="pointer-events: none">{{data.title}}</span>
     </li>
-    <li *ngIf="i === currentIndex" nz-menu-item class="li-absolute-animation" [style.top]="offsetTop"
+    <li *ngIf="i === currentIndex" class="li-absolute-animation" [style.top]="offsetTop"
         [style.left]="offsetLeft" [@changeDivSize]=currentState>
       <i nz-icon [type]="data.icon"></i>
       <span class="nav-text">{{data.title}}</span>
